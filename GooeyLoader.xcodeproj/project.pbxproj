@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FF33A211BDA310D00E77AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF33A201BDA310D00E77AE2 /* AppDelegate.swift */; };
+		5FF33A231BDA310D00E77AE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF33A221BDA310D00E77AE2 /* ViewController.swift */; };
+		5FF33A261BDA310D00E77AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF33A241BDA310D00E77AE2 /* Main.storyboard */; };
+		5FF33A281BDA310D00E77AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF33A271BDA310D00E77AE2 /* Assets.xcassets */; };
+		5FF33A2B1BDA310D00E77AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF33A291BDA310D00E77AE2 /* LaunchScreen.storyboard */; };
+		5FF33A361BDA310E00E77AE2 /* GooeyLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF33A351BDA310E00E77AE2 /* GooeyLoaderTests.swift */; };
+		5FF33A411BDA310E00E77AE2 /* GooeyLoaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF33A401BDA310E00E77AE2 /* GooeyLoaderUITests.swift */; };
+		5FF33A4F1BDA320E00E77AE2 /* GooeyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF33A4E1BDA320E00E77AE2 /* GooeyLoader.swift */; settings = {ASSET_TAGS = (); }; };
+		5FF33A511BDB6D0100E77AE2 /* KYAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF33A501BDB6D0100E77AE2 /* KYAnimator.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FF33A321BDA310E00E77AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF33A151BDA310D00E77AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF33A1C1BDA310D00E77AE2;
+			remoteInfo = GooeyLoader;
+		};
+		5FF33A3D1BDA310E00E77AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FF33A151BDA310D00E77AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FF33A1C1BDA310D00E77AE2;
+			remoteInfo = GooeyLoader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FF33A1D1BDA310D00E77AE2 /* GooeyLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooeyLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF33A201BDA310D00E77AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FF33A221BDA310D00E77AE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FF33A251BDA310D00E77AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FF33A271BDA310D00E77AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FF33A2A1BDA310D00E77AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FF33A2C1BDA310D00E77AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF33A311BDA310E00E77AE2 /* GooeyLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooeyLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF33A351BDA310E00E77AE2 /* GooeyLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooeyLoaderTests.swift; sourceTree = "<group>"; };
+		5FF33A371BDA310E00E77AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF33A3C1BDA310E00E77AE2 /* GooeyLoaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooeyLoaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF33A401BDA310E00E77AE2 /* GooeyLoaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooeyLoaderUITests.swift; sourceTree = "<group>"; };
+		5FF33A421BDA310E00E77AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF33A4E1BDA320E00E77AE2 /* GooeyLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GooeyLoader.swift; path = Classes/GooeyLoader.swift; sourceTree = "<group>"; };
+		5FF33A501BDB6D0100E77AE2 /* KYAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KYAnimator.swift; path = Classes/KYAnimator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF33A1A1BDA310D00E77AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF33A2E1BDA310E00E77AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF33A391BDA310E00E77AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FF33A141BDA310D00E77AE2 = {
+			isa = PBXGroup;
+			children = (
+				5FF33A1F1BDA310D00E77AE2 /* GooeyLoader */,
+				5FF33A341BDA310E00E77AE2 /* GooeyLoaderTests */,
+				5FF33A3F1BDA310E00E77AE2 /* GooeyLoaderUITests */,
+				5FF33A1E1BDA310D00E77AE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF33A1E1BDA310D00E77AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF33A1D1BDA310D00E77AE2 /* GooeyLoader.app */,
+				5FF33A311BDA310E00E77AE2 /* GooeyLoaderTests.xctest */,
+				5FF33A3C1BDA310E00E77AE2 /* GooeyLoaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF33A1F1BDA310D00E77AE2 /* GooeyLoader */ = {
+			isa = PBXGroup;
+			children = (
+				5FF33A201BDA310D00E77AE2 /* AppDelegate.swift */,
+				5FF33A221BDA310D00E77AE2 /* ViewController.swift */,
+				5FF33A4E1BDA320E00E77AE2 /* GooeyLoader.swift */,
+				5FF33A501BDB6D0100E77AE2 /* KYAnimator.swift */,
+				5FF33A241BDA310D00E77AE2 /* Main.storyboard */,
+				5FF33A271BDA310D00E77AE2 /* Assets.xcassets */,
+				5FF33A291BDA310D00E77AE2 /* LaunchScreen.storyboard */,
+				5FF33A2C1BDA310D00E77AE2 /* Info.plist */,
+			);
+			path = GooeyLoader;
+			sourceTree = "<group>";
+		};
+		5FF33A341BDA310E00E77AE2 /* GooeyLoaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FF33A351BDA310E00E77AE2 /* GooeyLoaderTests.swift */,
+				5FF33A371BDA310E00E77AE2 /* Info.plist */,
+			);
+			path = GooeyLoaderTests;
+			sourceTree = "<group>";
+		};
+		5FF33A3F1BDA310E00E77AE2 /* GooeyLoaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FF33A401BDA310E00E77AE2 /* GooeyLoaderUITests.swift */,
+				5FF33A421BDA310E00E77AE2 /* Info.plist */,
+			);
+			path = GooeyLoaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF33A1C1BDA310D00E77AE2 /* GooeyLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF33A451BDA310E00E77AE2 /* Build configuration list for PBXNativeTarget "GooeyLoader" */;
+			buildPhases = (
+				5FF33A191BDA310D00E77AE2 /* Sources */,
+				5FF33A1A1BDA310D00E77AE2 /* Frameworks */,
+				5FF33A1B1BDA310D00E77AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooeyLoader;
+			productName = GooeyLoader;
+			productReference = 5FF33A1D1BDA310D00E77AE2 /* GooeyLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FF33A301BDA310E00E77AE2 /* GooeyLoaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF33A481BDA310E00E77AE2 /* Build configuration list for PBXNativeTarget "GooeyLoaderTests" */;
+			buildPhases = (
+				5FF33A2D1BDA310E00E77AE2 /* Sources */,
+				5FF33A2E1BDA310E00E77AE2 /* Frameworks */,
+				5FF33A2F1BDA310E00E77AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF33A331BDA310E00E77AE2 /* PBXTargetDependency */,
+			);
+			name = GooeyLoaderTests;
+			productName = GooeyLoaderTests;
+			productReference = 5FF33A311BDA310E00E77AE2 /* GooeyLoaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FF33A3B1BDA310E00E77AE2 /* GooeyLoaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF33A4B1BDA310E00E77AE2 /* Build configuration list for PBXNativeTarget "GooeyLoaderUITests" */;
+			buildPhases = (
+				5FF33A381BDA310E00E77AE2 /* Sources */,
+				5FF33A391BDA310E00E77AE2 /* Frameworks */,
+				5FF33A3A1BDA310E00E77AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FF33A3E1BDA310E00E77AE2 /* PBXTargetDependency */,
+			);
+			name = GooeyLoaderUITests;
+			productName = GooeyLoaderUITests;
+			productReference = 5FF33A3C1BDA310E00E77AE2 /* GooeyLoaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF33A151BDA310D00E77AE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kitten Yang";
+				TargetAttributes = {
+					5FF33A1C1BDA310D00E77AE2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					5FF33A301BDA310E00E77AE2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5FF33A1C1BDA310D00E77AE2;
+					};
+					5FF33A3B1BDA310E00E77AE2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5FF33A1C1BDA310D00E77AE2;
+					};
+				};
+			};
+			buildConfigurationList = 5FF33A181BDA310D00E77AE2 /* Build configuration list for PBXProject "GooeyLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FF33A141BDA310D00E77AE2;
+			productRefGroup = 5FF33A1E1BDA310D00E77AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF33A1C1BDA310D00E77AE2 /* GooeyLoader */,
+				5FF33A301BDA310E00E77AE2 /* GooeyLoaderTests */,
+				5FF33A3B1BDA310E00E77AE2 /* GooeyLoaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FF33A1B1BDA310D00E77AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF33A2B1BDA310D00E77AE2 /* LaunchScreen.storyboard in Resources */,
+				5FF33A281BDA310D00E77AE2 /* Assets.xcassets in Resources */,
+				5FF33A261BDA310D00E77AE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF33A2F1BDA310E00E77AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF33A3A1BDA310E00E77AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF33A191BDA310D00E77AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF33A231BDA310D00E77AE2 /* ViewController.swift in Sources */,
+				5FF33A4F1BDA320E00E77AE2 /* GooeyLoader.swift in Sources */,
+				5FF33A511BDB6D0100E77AE2 /* KYAnimator.swift in Sources */,
+				5FF33A211BDA310D00E77AE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF33A2D1BDA310E00E77AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF33A361BDA310E00E77AE2 /* GooeyLoaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF33A381BDA310E00E77AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF33A411BDA310E00E77AE2 /* GooeyLoaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FF33A331BDA310E00E77AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF33A1C1BDA310D00E77AE2 /* GooeyLoader */;
+			targetProxy = 5FF33A321BDA310E00E77AE2 /* PBXContainerItemProxy */;
+		};
+		5FF33A3E1BDA310E00E77AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FF33A1C1BDA310D00E77AE2 /* GooeyLoader */;
+			targetProxy = 5FF33A3D1BDA310E00E77AE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FF33A241BDA310D00E77AE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF33A251BDA310D00E77AE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FF33A291BDA310D00E77AE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF33A2A1BDA310D00E77AE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FF33A431BDA310E00E77AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FF33A441BDA310E00E77AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FF33A461BDA310E00E77AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GooeyLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GooeyLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FF33A471BDA310E00E77AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GooeyLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GooeyLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FF33A491BDA310E00E77AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GooeyLoaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GooeyLoaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooeyLoader.app/GooeyLoader";
+			};
+			name = Debug;
+		};
+		5FF33A4A1BDA310E00E77AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GooeyLoaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GooeyLoaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooeyLoader.app/GooeyLoader";
+			};
+			name = Release;
+		};
+		5FF33A4C1BDA310E00E77AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GooeyLoaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GooeyLoaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GooeyLoader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5FF33A4D1BDA310E00E77AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GooeyLoaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GooeyLoaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GooeyLoader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF33A181BDA310D00E77AE2 /* Build configuration list for PBXProject "GooeyLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF33A431BDA310E00E77AE2 /* Debug */,
+				5FF33A441BDA310E00E77AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF33A451BDA310E00E77AE2 /* Build configuration list for PBXNativeTarget "GooeyLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF33A461BDA310E00E77AE2 /* Debug */,
+				5FF33A471BDA310E00E77AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FF33A481BDA310E00E77AE2 /* Build configuration list for PBXNativeTarget "GooeyLoaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF33A491BDA310E00E77AE2 /* Debug */,
+				5FF33A4A1BDA310E00E77AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FF33A4B1BDA310E00E77AE2 /* Build configuration list for PBXNativeTarget "GooeyLoaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF33A4C1BDA310E00E77AE2 /* Debug */,
+				5FF33A4D1BDA310E00E77AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF33A151BDA310D00E77AE2 /* Project object */;
+}
